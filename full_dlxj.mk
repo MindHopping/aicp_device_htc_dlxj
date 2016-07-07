@@ -14,7 +14,6 @@
 # limitations under the License.
 #
 
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # common msm8960 configs
@@ -129,29 +128,11 @@ PRODUCT_PACKAGES += \
         libgps.utils \
         gps.msm8960
 
-# NFC
-#PRODUCT_PACKAGES += \
-#    nfc.msm8960 \
-#    libnfc \
-#    libnfc_ndef \
-#    libnfc_jni \
-#    Nfc \
-#    Tag \
-#    com.android.nfc_extras
-
 # Sony NFC packages
 PRODUCT_PACKAGES += \
     NfcSony \
     Tag \
     com.android.nfc_extras
-
-# FeliCa
-PRODUCT_PACKAGES += \
-	KDDI_Felicalock \
-	MobileFeliCaClient \
-	MobileFeliCaMenuApp \
-	MobileFeliCaSettingApp \
-	MobileFeliCaWebPluginBoot
 
 # Shims
 PRODUCT_PACKAGES += \

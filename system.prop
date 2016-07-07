@@ -100,3 +100,11 @@ telephony.lteOnCdmaDevice=1
 ## For GSM/WCDMA
 #telephony.lteOnGsmDevice=1
 #ro.telephony.ril.v3=subscriptionFromSource,skipCdmaSubcription
+
+# hardware info
+ro.device.chipset=Qualcomm Snapdragon S4 Pro APQ8064
+ro.device.cpu=1.5 GHz quad-core Krait
+ro.device.gpu=Qualcomm Adreno 320
+ro.device.rear_cam=8 MP
+ro.device.front_cam=2.1 MP
+ro.device.screen_res=1080x1920
